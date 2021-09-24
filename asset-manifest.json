@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Todolists/static/css/main.aa207b39.chunk.css",
-    "main.js": "/Todolists/static/js/main.972b71fc.chunk.js",
-    "main.js.map": "/Todolists/static/js/main.972b71fc.chunk.js.map",
+    "main.js": "/Todolists/static/js/main.1e2e65c7.chunk.js",
+    "main.js.map": "/Todolists/static/js/main.1e2e65c7.chunk.js.map",
     "runtime-main.js": "/Todolists/static/js/runtime-main.e8df305c.js",
     "runtime-main.js.map": "/Todolists/static/js/runtime-main.e8df305c.js.map",
     "static/js/2.bffc45b3.chunk.js": "/Todolists/static/js/2.bffc45b3.chunk.js",
     "static/js/2.bffc45b3.chunk.js.map": "/Todolists/static/js/2.bffc45b3.chunk.js.map",
     "index.html": "/Todolists/index.html",
-    "precache-manifest.ba895fca8e6c9ded9aa00de0b8306a33.js": "/Todolists/precache-manifest.ba895fca8e6c9ded9aa00de0b8306a33.js",
+    "precache-manifest.81f92080e04b0650d7163794883013bb.js": "/Todolists/precache-manifest.81f92080e04b0650d7163794883013bb.js",
     "service-worker.js": "/Todolists/service-worker.js",
     "static/css/main.aa207b39.chunk.css.map": "/Todolists/static/css/main.aa207b39.chunk.css.map",
     "static/js/2.bffc45b3.chunk.js.LICENSE.txt": "/Todolists/static/js/2.bffc45b3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e8df305c.js",
     "static/js/2.bffc45b3.chunk.js",
     "static/css/main.aa207b39.chunk.css",
-    "static/js/main.972b71fc.chunk.js"
+    "static/js/main.1e2e65c7.chunk.js"
   ]
 }
