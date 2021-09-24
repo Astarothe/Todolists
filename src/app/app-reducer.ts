@@ -43,6 +43,8 @@ export const initializeAppTC = () => (dispatch: Dispatch) => {
 
         }
 
+
+    }).finally(() => {
         dispatch(setAppInitializedAC(true));
     })
 }
