@@ -16,7 +16,7 @@ import {ErrorSnackbar} from '../components/ErrorSnackbar/ErrorSnackbar'
 import {useDispatch, useSelector} from 'react-redux'
 import {AppRootStateType} from './store'
 import {initializeAppTC, RequestStatusType} from './app-reducer'
-import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom'
+import {HashRouter, Redirect, Route, Switch} from 'react-router-dom'
 import {Login} from '../features/Login/Login'
 import {logoutTC} from '../features/Login/auth-reducer'
 
@@ -39,6 +39,7 @@ function App({demo = false}: PropsType) {
         dispatch(logoutTC())
     }, [])
 
+
     if (!isInitialized) {
         return <div
             style={{position: 'fixed', top: '30%', textAlign: 'center', width: '100%'}}>
@@ -47,7 +48,7 @@ function App({demo = false}: PropsType) {
     }
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="App">
                 <ErrorSnackbar/>
                 <AppBar position="static">
@@ -71,7 +72,7 @@ function App({demo = false}: PropsType) {
                     </Switch>
                 </Container>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
